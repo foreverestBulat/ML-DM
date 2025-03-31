@@ -1,0 +1,11 @@
+{
+    "macros": {
+        "uppercase_and_underscore": [
+            "editor.action.transformToUppercase",
+            "editor.action.insertSnippet",
+            {
+                "snippet": "${TM_SELECTED_TEXT/ /_/g}"
+            }
+        ]
+    }
+}
